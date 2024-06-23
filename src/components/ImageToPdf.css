@@ -1,0 +1,61 @@
+.image-to-pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    margin-top: -150px;
+    
+  }
+  
+  .body{
+    display: grid;
+  place-items: center;
+  height: 100vh;
+  
+  }
+  h2{
+    
+    margin: 10px;
+    margin-top: -100px;
+  }
+  
+  .image-to-pdf input {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+    margin-left: 100px;
+    
+  }
+
+  #newConvertButton{
+    margin-top: 30px;
+  }
+  
+  .image-to-pdf button {
+   background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .image-to-pdf button:hover{
+    background-color: #0056b3;
+  }
+
+  
+  
+  @media (max-width: 556px) {
+    .image-to-pdf {
+      max-width: 300px; /* Reduce max-width when viewport width is 556px or less */
+    }
+  }

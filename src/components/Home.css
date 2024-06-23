@@ -1,0 +1,85 @@
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .tagline{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+  }
+
+.container2{
+    margin: 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+    
+}
+
+.Home{
+    display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 70px;
+    color: #5a5b5e;
+
+}
+
+span{
+  color: navy;
+  font-weight: bold;
+}
+
+.container2.pdf{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
+}
+
+@media (max-width: 556px) {
+    .container2 {
+      max-width: 240px; /* Reduce max-width when viewport width is 556px or less */
+      padding: 30px;
+      padding-bottom: 80px;
+      margin-bottom: 100px;
+      margin-top: 60px;
+    }
+    .container2 p{
+     font-size: 15px;
+     margin-bottom: 30px;
+     
+    }
+    .container2.pdf{
+      padding-top: 40px;
+  padding-bottom: 40px;
+    }
+
+  }
+
+  @media (max-width:350px){
+    .container2 {
+      max-width: 200px; /* Reduce max-width when viewport width is 556px or less */
+      padding: 30px;
+      padding-bottom: 80px;
+      margin: 30px;
+    }
+  }
