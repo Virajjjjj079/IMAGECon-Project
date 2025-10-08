@@ -14,11 +14,7 @@ function Home() {
   return (
     <div className={darkMode ? 'dark-mode' : ''}>
       <Navbar />
-    <div className="theme-toggle">
-        <button onClick={toggleTheme}>
-          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
-        </button>
-      </div>
+    
       <div className="Home">
         <h2 className='tagline'>Private, Secure, and Serverless Image Conversion!</h2>
         <div className="container2">
