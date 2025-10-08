@@ -18,6 +18,7 @@ function Home() {
         <button onClick={toggleTheme}>
           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
+          
       </div>
       <div className="Home">
         <h2 className='tagline'>Private, Secure, and Serverless Image Conversion!</h2>
